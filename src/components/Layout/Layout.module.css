@@ -1,0 +1,24 @@
+.container {
+    display: grid;
+    width: 100%;
+    height: 920px;
+    grid-template-areas: "head head"
+        "nav main";
+    grid-template-rows: 50px 1fr;
+    grid-template-columns: 150px 1fr;
+}
+
+.head {
+    grid-area: head;
+    background-color: #8ca0ff;
+}
+
+.nav {
+    grid-area: nav;
+    background-color: #ffa08c;
+}
+
+.content {
+    grid-area: main;
+    background-color: #ffff64;
+}

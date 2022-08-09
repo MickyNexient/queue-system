@@ -1,0 +1,29 @@
+.dashboard {
+    display: grid;
+    grid-template-areas: "left right";
+    grid-template-columns: 1fr 150px;
+    height: 100%;
+}
+
+.content {
+    grid-area: left;
+}
+
+.queue {
+    grid-area: right;
+    background-color: purple;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+/* .modal {
+    position: 'absolute' as 'absolute';
+    top: '50%';
+    left: '50%';
+    transform: 'translate(-50%, -50%)';
+    width: 400;
+    background-color: 'background.paper';
+    border: '2px solid #000';
+    box-shadow: 24;
+    p: 4;
+} */
